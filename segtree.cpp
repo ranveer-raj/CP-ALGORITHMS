@@ -54,6 +54,7 @@ const int nax3 = 10000001;
 
 
 /******************* Segment Tree Start Here ************************/
+// This code is written for Range Minimum Query
 // define node according to question
 // change merge function according to question
 
