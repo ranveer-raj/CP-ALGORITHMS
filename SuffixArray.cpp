@@ -120,12 +120,8 @@ class SuffixArray
         {
             constructSA();
             computeLCP();
-            reverse(SA.begin(), SA.end());
-            reverse(LCP.begin(), LCP.end());
-            SA.pop_back();
-            LCP.pop_back();
-            reverse(SA.begin(), SA.end());
-            reverse(LCP.begin(), LCP.end());
+            SA.erase(SA.begin());
+            LCP.erase(LCP.begin());
         }
 };
 
